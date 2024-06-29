@@ -10,7 +10,7 @@ import numpy as np
 
 
 target_array = np.array(['setosa', 'versicolor', 'virginica'])
-st.set_page_config(layout='wide',page_title="Iris flower classification",page_icon='iris_petal_sepal.png')
+st.set_page_config(layout='wide',page_title="Iris flower classification",page_icon='Iris_petal_sepal.png')
 
 st.markdown("<h1 style='text-align: center; color: #5A4FCF;'>Iris flower classification (Random Forest)</h1>", unsafe_allow_html=True)
 
