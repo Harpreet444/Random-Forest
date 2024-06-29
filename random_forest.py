@@ -10,12 +10,12 @@ import numpy as np
 
 
 target_array = np.array(['setosa', 'versicolor', 'virginica'])
-st.set_page_config(layout='wide',page_title="Iris flower classification",page_icon='Iris_petal_sepal.png')
+st.set_page_config(layout='wide',page_title="Iris flower classification",page_icon='iris_petal_sepal.png')
 
 st.markdown("<h1 style='text-align: center; color: #5A4FCF;'>Iris flower classification (Random Forest)</h1>", unsafe_allow_html=True)
 
 col1,col2 = st.columns([1,2])
-col1.image("Iris_petal_sepal.png")
+col1.image("iris_petal_sepal.png")
 col2.subheader("The primary goal is to leverage machine learning techniques to build a classification model that can accurately identify the species of iris flowers based on their measurements. The model aims to automate the classification process, offering a practical solution for identifying iris species.")
 col2.subheader('Key Details:')
 col2.subheader('Iris flowers have three species: setosa, versicolor, and virginica.')
